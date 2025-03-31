@@ -59,7 +59,6 @@
 						"classnamespace" : "box",
 						"rect" : [ 2506.0, 397.0, 399.0, 406.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-12",
@@ -2366,7 +2365,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 924.0, 663.0, 263.0, 206.0 ],
+						"rect" : [ 2338.0, 572.0, 263.0, 206.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -2412,7 +2411,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 0,
 									"patching_rect" : [ 30.0, 150.0, 89.0, 22.0 ],
-									"text" : "rp.recBuff recR"
+									"text" : "rp.recBuff recR",
+									"varname" : "rp.recBuff"
 								}
 
 							}
@@ -2487,7 +2487,8 @@
 						"globalpatchername" : ""
 					}
 ,
-					"text" : "p rec"
+					"text" : "p rec",
+					"varname" : "rec"
 				}
 
 			}
@@ -5927,6 +5928,13 @@
 			}
 , 			{
 				"name" : "rp.controller.maxpat",
+				"bootpath" : "~/git/rec-proc",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rp.doubleClick.maxpat",
 				"bootpath" : "~/git/rec-proc",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
